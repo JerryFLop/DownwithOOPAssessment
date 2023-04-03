@@ -1,13 +1,13 @@
 package assessment;
 
-public class SalariedEmployee extends Employee{
+public abstract class Employee extends Person {
 
-
-    public SalariedEmployee(int id, String name) {
+    public Employee(int id, String name) {
         super(id, name);
+         id = ++counter;
     }
+private static int counter = 0;
 
-    @Override
     public void printBadge() {
         System.out.println( getName() + '\n' + "EmployeeID:" + counter);
     }
