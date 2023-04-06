@@ -7,6 +7,12 @@ public class HourlyEmployee extends Employee implements Payable {
         super(name);
     }
 
+    @Override
+    public void ClothTypes() {
+        System.out.println("Blue shirt and black jeans ");
+    }
+
+
     private double hoursworked;
     private double hourlyrate;
 
@@ -29,7 +35,6 @@ public class HourlyEmployee extends Employee implements Payable {
     }
 
 
-
 @Override
     public void printBadge() {
         System.out.println("HourlyEmployee : " + getName() + '\n'+ "EmployeeID :  " + printID() );
@@ -37,8 +42,11 @@ public class HourlyEmployee extends Employee implements Payable {
 
     @Override
     public void CalculatePay() {
-        System.out.println(hourlyrate * hoursworked);
+        System.out.println( "Hourly Employee's Pay is : " + hourlyrate * hoursworked);
+
+
 
     }
+
 }
 

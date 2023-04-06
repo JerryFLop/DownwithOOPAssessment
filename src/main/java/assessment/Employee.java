@@ -2,7 +2,7 @@ package assessment;
 
 
 
-public abstract class Employee extends Person {
+public abstract class Employee extends Person  {
 
     public Employee( String name) {
         super(name);
@@ -19,4 +19,6 @@ public static int counter = 0;
        return id;
    }
     public abstract void printBadge();
+
+
 }

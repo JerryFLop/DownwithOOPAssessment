@@ -35,8 +35,17 @@ public class Entrepreneur extends Person implements Payable{
     }
 
     @Override
+    public void ClothTypes() {
+        System.out.println("A blue suit and tie ");
+    }
+
+    @Override
     public void CalculatePay() {
-        System.out.println(revenue - expenses);
+        System.out.println("Entrepreneur's Pay is : "  + (revenue - expenses));
+
+
+
+
 
     }
 }
