@@ -9,7 +9,7 @@ public class HourlyEmployee extends Employee implements Payable {
 
     @Override
     public void ClothTypes() {
-        System.out.println("Blue shirt and black jeans ");
+        System.out.println("Blue shirt and black jeans");
     }
 
 

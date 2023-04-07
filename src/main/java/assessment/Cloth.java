@@ -5,11 +5,6 @@ public  class Cloth {
    private double Price;
    private String Description ;
 
-    public Cloth(double price,String description) {
-        Price = price;
-        Description = description;
-    }
-
     public double getPrice() {
         return Price;
     }
@@ -25,8 +20,6 @@ public  class Cloth {
     public void setDescription(String description) {
         Description = description;
     }
-
-
 }
 
 

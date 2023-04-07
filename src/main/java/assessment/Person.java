@@ -2,7 +2,7 @@ package assessment;
 
 public abstract class Person {
     private String name;
-
+//     private Cloth type;
 
     public Person( String name) {
         this.name = name;

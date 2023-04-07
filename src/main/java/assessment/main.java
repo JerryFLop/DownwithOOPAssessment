@@ -21,10 +21,12 @@ public class main {
 
         Payable [] personarray = {employee1,employee2,entrepreneur};
            Person.printpay(personarray);
-           Person [] clothsarray
+
+           Person [] Clotharray = {entrepreneur,employee2,employee1};
+            Person.PrintClothTypes(Clotharray);
 
 
-          Cloth cloth = new Cloth(200,"Casual wear") ;
+
 
 
 
